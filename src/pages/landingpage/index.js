@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "../../components/Logo";
+import Header from "../../components/Header"
 
 function index() {
   return (
     <>
-      <Logo/>
+      <Header/>
     </>
   );
 }

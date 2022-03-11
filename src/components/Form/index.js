@@ -1,6 +1,6 @@
 import React from "react";
 import FormGroup from "../FormGroup";
-import Button from "./styled";
+import {Button, Form, FormContent, FormGroupSpecial, ContainerButton} from "./styled";
 
 export default function index() {
     
@@ -35,55 +35,57 @@ export default function index() {
       };
       
     return (
-        <form action="">
-            <div className="content-form">
+        <Form action="">
+            <FormContent>
                 <FormGroup
                     id="name"
                     value="Nome"
                     type="text"
-                    placeholder="Digite seu nome"
+                    placeholder=""
                 />
                 <FormGroup
                     id="nascimento"
                     value="Nascimento"
                     type="text"
-                    placeholder="Digite sua data de nascimento"
+                    placeholder=""
                 />
                 <FormGroup
                     id="cpf"
                     value="CPF"
                     type="text"
-                    placeholder="Digite Seu CPF"
+                    placeholder=""
                 />
                 <FormGroup
                     id="cep"
                     value="CEP"
                     type="text"
-                    placeholder="Digite Seu CEP"
+                    placeholder=""
                 />
                 <FormGroup
                     id="adress"
                     value="Endereço"
                     type="text"
-                    placeholder="Digite Seu Endereço"
+                    placeholder=""
                     funcao=""
                 />
+                <FormGroupSpecial>
                 <FormGroup
                     id="district"
                     value="Bairro"
                     type="text"
-                    placeholder="Digite Sua rua"
+                    placeholder=""
                 />
                 <FormGroup
                     id="number"
                     value="Number"
                     type="text"
-                    placeholder="Digite o número da sua casa"
+                    placeholder=""
                 />
-            </div>
-            <div className="button">
+                </FormGroupSpecial>
+            </FormContent>
+            <ContainerButton>
                 <Button onClick={handleClick} className="cadastrar">Cadastrar</Button>
-            </div>
-        </form>
+            </ContainerButton>
+        </Form>
     );
 }

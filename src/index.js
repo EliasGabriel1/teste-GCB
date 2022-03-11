@@ -10,8 +10,8 @@ ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
       <Routes>
-        <Route path="/" element={<Page1 />} />
-        <Route path="/champion" element={<Page2 />} />
+        <Route path="/Cadastro" element={<Page1 />} />
+        <Route path="/" element={<Page2 />} />
       </Routes>
       <Base/>
       <Reset />

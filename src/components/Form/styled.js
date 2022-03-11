@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Button = styled.button`
+export const Button = styled.button`
     cursor:pointer;
     border-radius:20px;
     background: rgba(186, 220, 88, 0.83);
@@ -17,4 +17,29 @@ const Button = styled.button`
     }
 `;
 
-export default Button;
+export const ContainerButton = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
+export const Form = styled.form`
+    max-width: 314px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 0 30px 0;
+`;
+
+export const FormContent = styled.div`
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    margin-top: 10px;
+`;
+
+export const FormGroupSpecial = styled.div`
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 60% 35%;
+`;
+
