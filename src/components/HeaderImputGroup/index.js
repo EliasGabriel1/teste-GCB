@@ -1,12 +1,15 @@
 
-import GroupInputHeader from "../GroupInputHeader"
+import GroupInputHeader from "../GroupInputHeader";
+import {Container, BoxDados} from "./styled";
 
 function index(){
     return(
-        <div>
-            <h1>Ready for trying a new recipe?</h1>
-            <GroupInputHeader/>
-        </div>
+        <Container>
+            <BoxDados>
+                <h1>Ready for <br/>Trying a new<br/> recipe?</h1>
+                <GroupInputHeader autoComoplete="on" idbutton="search" idinput="InputHeader" button="true" placeholder="Search healthy recipes"/>
+            </BoxDados>
+        </Container>
     )
 }
 

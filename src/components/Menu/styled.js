@@ -10,9 +10,11 @@ const customMedia = generateMedia({
 export const Menu = styled.div`
     display: flex;
     justify-content: space-between;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding-top: 10px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
     
   ${customMedia.lessThan("mobile")`
         display:none;
