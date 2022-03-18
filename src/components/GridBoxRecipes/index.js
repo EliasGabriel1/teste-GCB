@@ -1,5 +1,5 @@
 import BoxBestRecipes from "../BoxBestRecipes";
-import Image1 from "../Imagens/Banner-Header.png";
+import Image1 from "../Imagens/Comida1.jpg";
 import {Grid} from "./styled";
 
 function index(){

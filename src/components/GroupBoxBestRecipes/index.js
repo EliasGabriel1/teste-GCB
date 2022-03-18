@@ -1,10 +1,11 @@
 import Button from "../Button";
+import {H3} from "./styled";
 
 function index(props){
     return(
         <div>
-            <h3>{props.text}</h3>
-            <Button> {props.buttontext}</Button>
+            <H3>{props.text}</H3>
+            <Button buttontext={props.buttontext} />
         </div>
     );
 }

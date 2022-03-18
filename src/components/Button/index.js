@@ -1,4 +1,4 @@
-import Button from "./styled";
+import {Button} from "./styled";
 
 function index(props){
     return(

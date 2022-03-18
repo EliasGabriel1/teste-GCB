@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "../../components/Header"
-import Grid from "../../components/GridBoxRecipes";
+import TextBestServices from "../../components/TextBestServices"
+import BestRecipe from "../../components/BestRecipe";
 
 function index() {
   return (
     <>
       <Header/>
-      <Grid/>
+      <BestRecipe/>
+      <TextBestServices/>
     </>
   );
 }
