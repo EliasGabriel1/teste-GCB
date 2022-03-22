@@ -7,16 +7,10 @@ const customMedia = generateMedia({
   mobile: "46em",
 });
 
-export const Menu = styled.div`
+export const Carrossel = styled.div`
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    
-  ${customMedia.lessThan("mobile")`
-        display:block;
-  `};   
+    ${customMedia.lessThan("mobile")`
+        
+    `};
 `;

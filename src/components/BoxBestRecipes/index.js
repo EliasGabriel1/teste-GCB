@@ -6,7 +6,7 @@ import {Box} from "./styled"
 function index(props){
     return(
         <Box>
-            {props.src?<Img src={props.src} alt={props.alt} width="100%"/>:""}
+            {props.src?<Img src={props.src} alt={props.alt}/>:""}
             <GroupBoxBestRecipes text={props.text} buttontext={props.buttontext}/>
         </Box>
     );

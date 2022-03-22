@@ -2,7 +2,7 @@
 function index(props){
     return(
         <figure>
-            <img src={props.src} alt={props.alt}/>
+            <img src={props.src} alt={props.alt} width="100%"/>
         </figure>
     );
 }
