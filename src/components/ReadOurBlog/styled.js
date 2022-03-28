@@ -7,16 +7,11 @@ const customMedia = generateMedia({
   mobile: "46em",
 });
 
-export const Menu = styled.div`
-    display: flex;
-    justify-content: space-between;
+export const Container = styled.figure`
     max-width: 1200px;
     margin: 0 auto;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    
-  ${customMedia.lessThan("mobile")`
-        display:block;
-  `};   
+    padding: 48px 0 134px 0;
+    ${customMedia.lessThan("mobile")`
+        background-size: 47vh;
+    `};   
 `;

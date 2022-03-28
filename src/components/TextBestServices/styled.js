@@ -5,6 +5,7 @@ export const Background = styled.div`
     background-repeat: no-repeat;
     background-position: center left;
     background-size: 100vh;
+    margin-top: 100px;
 `;
 
 export const Container = styled.div`
@@ -18,19 +19,11 @@ export const Container = styled.div`
 `;
 
 export const Bloco = styled.div`
-    max-widtj:500px;
+    max-width:420px;
     display: flex;
     align-items: start;
     flex-direction: column;
     justify-content: center;
     height:100%;
-    max-width: 800px;
     text-align:start;
-    line-height: 140%;
-    p{
-        color: #00000090;
-    }
-    h3{
-        font-size:22px;
-    }
 `;
