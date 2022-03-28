@@ -26,4 +26,11 @@ export const Bloco = styled.div`
     height:100%;
     max-width: 800px;
     text-align:start;
+    line-height: 140%;
+    p{
+        color: #00000090;
+    }
+    h3{
+        font-size:22px;
+    }
 `;
