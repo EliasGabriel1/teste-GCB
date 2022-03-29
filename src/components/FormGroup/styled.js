@@ -20,8 +20,11 @@ export const Input = styled.input`
     padding-left: 15px;
     width: 100%;
     max-width: 100%;
+    border: 1px solid #0000003d;
 `;
 
 export const Button = styled.button`
     background-color: #BADC58;
+    padding: 0 18px;
+    color: #FFFFFF;
 `;

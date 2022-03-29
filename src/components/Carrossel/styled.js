@@ -10,7 +10,12 @@ const customMedia = generateMedia({
 export const Carrossel = styled.div`
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 20px 10px;
+    width: 100%;
+    
     ${customMedia.lessThan("mobile")`
-        
+      gap: 20px;        
     `};
 `;

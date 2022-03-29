@@ -13,7 +13,7 @@ function index() {
       <BestRecipe/>
       <TextBestServices/>
       <ReadOurBlog/>
-      <Newsletter/>
+      <Newsletter lp="1" autoComplete="on" idbutton="search" idinput="InputHeader" button="true" contentbutton="Join" placeholder="Enter your email address"/>
       <Footer/>
     </>
   );

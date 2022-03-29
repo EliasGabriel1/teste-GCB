@@ -10,7 +10,7 @@ export default function FormGroup(props) {
               {props.id && props.value ? <label for={props.id}>{props.value}</label>:""}
             <GroupInput>
               <Input autocomplete={props.autoComoplete} type={props.type} id={props.id} placeholder={props.placeholder} onKeyPress={props.funcao} required />
-              {props.button ? <Button id={props.idbutton}><Svg/></Button>:""}
+              {props.button ? <Button id={props.idbutton}>    {!props.contentbutton ? <Svg/> : props.contentbutton} </Button> : "" }
             </GroupInput>
         </FormuGroup>
       </>

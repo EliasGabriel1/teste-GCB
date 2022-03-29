@@ -13,6 +13,7 @@ export const Background = styled.div`
     background-size: 100vh;
     height: 100vh;
     ${customMedia.lessThan("mobile")`
+        height: 70vh;
         background-size: 47vh;
     `};   
 `;
@@ -25,6 +26,9 @@ export const BoxDados = styled.div`
   gap: 25px;
   h1{
     font-size: 50px;
+    line-height: 125%;
+  }
+  h2{
     line-height: 125%;
   }
 `;
@@ -41,5 +45,6 @@ export const Container = styled.div`
     align-items: flex-end;
     height: 58vh;
     margin-bottom:60px;
+    padding: 0 10px;
   `};   
 `;

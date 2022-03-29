@@ -11,8 +11,9 @@ const customMedia = generateMedia({
 export const Button = styled.button`
     background-color: #BADC58;
     color: #FFF;
-    font-size: 16px;
-    padding: 16px 32px;
+    font-size: 14px;
+    padding: 12px 15px;
+    border-radius: 4px;
     cursor:pointer;
     ${customMedia.lessThan("mobile")`
         padding: 12px 18px;
