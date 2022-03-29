@@ -17,7 +17,7 @@ export const GroupInput = styled.div`
 
 export const Input = styled.input`
     height: 30.06px;
-    padding-left: 15px;
+    padding-left: 10px;
     width: 100%;
     max-width: 100%;
     border: 1px solid #0000003d;

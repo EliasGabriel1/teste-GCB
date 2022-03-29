@@ -41,45 +41,44 @@ export default function index() {
                     id="name"
                     value="Nome"
                     type="text"
-                    placeholder=""
+                    placeholder="Nome"
                 />
                 <FormGroup
                     id="nascimento"
                     value="Nascimento"
                     type="text"
-                    placeholder=""
+                    placeholder="Nascimento"
                 />
                 <FormGroup
                     id="cpf"
                     value="CPF"
                     type="text"
-                    placeholder=""
+                    placeholder="CPF"
                 />
                 <FormGroup
                     id="cep"
                     value="CEP"
                     type="text"
-                    placeholder=""
+                    placeholder="CEP"
                 />
                 <FormGroup
                     id="adress"
                     value="Endereço"
                     type="text"
-                    placeholder=""
-                    funcao=""
+                    placeholder="Endereço"
                 />
                 <FormGroupSpecial>
                 <FormGroup
                     id="district"
                     value="Bairro"
                     type="text"
-                    placeholder=""
+                    placeholder="Bairro"
                 />
                 <FormGroup
                     id="number"
                     value="Number"
                     type="text"
-                    placeholder=""
+                    placeholder="Number"
                 />
                 </FormGroupSpecial>
             </FormContent>

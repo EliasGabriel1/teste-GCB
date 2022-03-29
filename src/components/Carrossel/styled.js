@@ -14,8 +14,7 @@ export const Carrossel = styled.div`
     overflow: auto;
     padding: 20px 10px;
     width: 100%;
-    
+    gap: 40px;        
     ${customMedia.lessThan("mobile")`
-      gap: 20px;        
     `};
 `;

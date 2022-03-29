@@ -9,8 +9,8 @@ export default function index() {
                 <path d="M31.1785 56.228L16.2518 41.301L22.392 35.1605L31.1785 43.9419L55.6317 19.489L61.772 25.6295L31.1785 56.228Z" fill="white" />
                 <defs>
                     <linearGradient id="paint0_linear_103_160" x1="60.876" y1="78.964" x2="20.9" y2="7.448" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#DBE42C" />
-                        <stop offset="1" stop-color="#6AD419" />
+                        <stop stopColor="#DBE42C" />
+                        <stop offset="1" stopColor="#6AD419" />
                     </linearGradient>
                 </defs>
             </svg>
