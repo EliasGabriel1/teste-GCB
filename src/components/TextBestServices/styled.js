@@ -51,7 +51,7 @@ export const Bloco = styled.div`
     ${customMedia.lessThan("mobile")`
         background-color: #ffffff90;
         border-radius: 7px;
-        max-height: 60%;
+        max-height: 75%;
         padding: 0 20px;
         max-width: 330px;
     `}
